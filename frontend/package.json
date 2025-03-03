@@ -3,12 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "npx vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "postinstall": "chmod +x node_modules/.bin/vite"
+},
+
   "dependencies": {
     "@ckeditor/ckeditor5-react": "^9.5.0",
     "@hookform/resolvers": "^4.0.0",
