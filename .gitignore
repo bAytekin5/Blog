@@ -1,14 +1,14 @@
 # Logs
 logs
-*.logs
+*.log
 npm-debug.log*
-yarn-debug-log*
-yarn-error-log*
-pnpm-debug-log*
-lerna-debug-log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-node_modeules
-dist 
+node_modules
+dist
 dist-ssr
 *.local
 
@@ -16,7 +16,7 @@ dist-ssr
 .vscode/*
 !.vscode/extensions.json
 .idea
-.Ds_Store
+.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
