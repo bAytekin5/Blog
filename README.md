@@ -163,7 +163,5 @@ Proje, Vercel üzerinde kolayca deploy edilebilir:
 4. Branch'inize push edin (`git push origin feature/amazing-feature`)
 5. Pull request açın
 
-## Lisans
 
-Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
 
